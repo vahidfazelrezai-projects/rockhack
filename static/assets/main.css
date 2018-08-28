@@ -1,0 +1,20 @@
+/* 
+purple:     #65328A     rgb(101,50,138)     #e7daf1     rgb(231, 218, 241)
+teal:       #66C2DE     rgb(102,194,222)    #d5eef6     rgb(213, 238, 246)
+*/
+
+* {
+    color: #65328A;
+}
+
+body {
+    background-color: #d5eef6;
+}
+
+.page-container {
+    text-align: center;
+}
+
+.vertical-spacer {
+    height: 40px;
+}

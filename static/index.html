@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Climbing</title>
+
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/carbon-components/css/carbon-components.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/main.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://unpkg.com/carbon-components/scripts/carbon-components.min.js"></script>
+  <script src="/assets/main.js"></script>
+</head>
+<body>
+  <div class="page-container bx--grid">
+    <div class="vertical-spacer"></div>
+    <div class="vertical-spacer"></div>
+    <div class="bx--row">
+      <div class="bx--col-xs-12">
+        <h1>[ Restaurants Near You ]</h1>
+
+        <div class="vertical-spacer"></div>
+
+        <table class="bx--data-table-v2 bx--data-table-v2--compact">
+          <thead>
+            <tr>
+                <th><span class="bx--table-header-label">Name</span></th>
+                <th><span class="bx--table-header-label">Distance</span></th>
+            </tr>
+          </thead>
+          <tbody class="location-table">
+              <tr class="loading-row">
+                <td>Getting location...</td>
+                <td></td>
+              </tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+</body>
+</html>
