@@ -15,6 +15,6 @@ body {
     text-align: center;
 }
 
-.vertical-spacer {
-    height: 40px;
+.bx--row {
+    padding-bottom: 40px;
 }

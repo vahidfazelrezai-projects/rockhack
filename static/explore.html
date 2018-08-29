@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Explore</title>
+
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/carbon-components/css/carbon-components.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/explore.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://unpkg.com/carbon-components/scripts/carbon-components.min.js"></script>
+  <script src="/assets/explore.js"></script>
+</head>
+<body>
+  <div class="page-container bx--grid">
+    <div class="bx--row"></div>
+    <div class="bx--row">
+      <div class="bx--col-xs-5">
+        <ul data-dropdown data-value class="bx--dropdown" tabindex="0">
+          <li class="bx--dropdown-text">Select a collection...</li>
+          <svg class="bx--dropdown__arrow" width="10" height="5" viewBox="0 0 10 5" fill-rule="evenodd">
+            <path d="M10 0L5 5 0 0z"></path>
+          </svg>
+          <li>
+            <ul class="bx--dropdown-list left-collection-list"></ul>
+          </li>
+        </ul>
+        <section class="bx--structured-list bx--structured-list bx--structured-list--border bx--structured-list--selection" data-structured-list>
+          <div class="bx--structured-list-thead">
+            <div class="bx--structured-list-row bx--structured-list-row--header-row">
+              <div class="bx--structured-list-th"></div>
+              <div class="bx--structured-list-th">Name</div>
+              <div class="bx--structured-list-th">Type</div>
+            </div>
+          </div>
+          <div class="bx--structured-list-tbody left-fields-list"></div>
+        </section>
+      </div>
+      <div class="bx--col-xs-2 check-result">Select two fields...</div>
+      <div class="bx--col-xs-5">
+        <ul data-dropdown data-value class="bx--dropdown" tabindex="0">
+          <li class="bx--dropdown-text">Select a collection...</li>
+          <svg class="bx--dropdown__arrow" width="10" height="5" viewBox="0 0 10 5" fill-rule="evenodd">
+            <path d="M10 0L5 5 0 0z"></path>
+          </svg>
+          <li>
+            <ul class="bx--dropdown-list right-collection-list"></ul>
+          </li>
+        </ul>
+        <section class="bx--structured-list bx--structured-list bx--structured-list--border bx--structured-list--selection" data-structured-list>
+          <div class="bx--structured-list-thead">
+            <div class="bx--structured-list-row bx--structured-list-row--header-row">
+              <div class="bx--structured-list-th"></div>
+              <div class="bx--structured-list-th">Name</div>
+              <div class="bx--structured-list-th">Type</div>
+            </div>
+          </div>
+          <div class="bx--structured-list-tbody right-fields-list"></div>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

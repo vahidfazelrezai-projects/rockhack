@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Climbing</title>
+
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/carbon-components/css/carbon-components.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/climbing.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://unpkg.com/carbon-components/scripts/carbon-components.min.js"></script>
+  <script src="/assets/climbing.js"></script>
+</head>
+<body>
+  <div class="page-container bx--grid">
+    <div class="bx--row"></div>
+    <div class="bx--row"></div>
+
+    <div class="visible-waiting bx--row">
+      <div class="bx--col-xs-12">
+        <button class="use-my-current-location bx--btn bx--btn--primary" type="button">
+          Use My Current Location
+        </button> 
+      </div>
+    </div>
+
+    <div class="visible-loading bx--row">
+      <div class="bx--col-xs-12">
+        <div class="location-message"></div>
+      </div>
+    </div>
+
+    <div class="visible-loaded bx--row">
+      <div class="bx--col-xs-6">
+        <h1>[ Places Near You ]</h1>
+        <div class="bx--row"></div>
+        <div class="places-table"></div>
+      </div>
+      <div class="bx--col-xs-6">
+        <h1>[ Other Info ]</h1>
+        <div class="bx--row"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
